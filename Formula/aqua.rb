@@ -6,23 +6,23 @@ class Aqua < Formula
 
   on_macos do
     on_arm do
-      url "https://updates.aquavoice.com/cli/v1.0.0/aqua_darwin_arm64.tar.gz"
-      sha256 "088e4c6169ae7b49ab3adb1aec6c4df1aa23814e5c8f432d7f1f327d9f835053"
+      url "https://updates.aquavoice.com/cli/v1.0.1/aqua_darwin_arm64.tar.gz"
+      sha256 "c35ed549119b9994402381e74e257cee00d8e8aa55796a0ca078ba21f32edaa8"
     end
     on_intel do
-      url "https://updates.aquavoice.com/cli/v1.0.0/aqua_darwin_amd64.tar.gz"
-      sha256 "959d0f81104334018c7678fc87fd8a26aaac446e4a885444ba5e70215b46b94d"
+      url "https://updates.aquavoice.com/cli/v1.0.1/aqua_darwin_amd64.tar.gz"
+      sha256 "adb221ff42c65020b03f810f7a7da26ad81fc8eed0aabe1a7be5e100e2823d00"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://updates.aquavoice.com/cli/v1.0.0/aqua_linux_arm64.tar.gz"
-      sha256 "30408fb4a1054d5cf58a6588073c9c04d99ffbdc0998d0d4463deac10f92799d"
+      url "https://updates.aquavoice.com/cli/v1.0.1/aqua_linux_arm64.tar.gz"
+      sha256 "f56b488ac03cbeac6031eba491320054743ec4a25defe62fe4f2f1ace5729f8e"
     end
     on_intel do
-      url "https://updates.aquavoice.com/cli/v1.0.0/aqua_linux_amd64.tar.gz"
-      sha256 "af6f910cd5212785b4ad979e79580655d89aebbf1f02ad0d51424c9f3ae77377"
+      url "https://updates.aquavoice.com/cli/v1.0.1/aqua_linux_amd64.tar.gz"
+      sha256 "745cdcff751744fd1348c4f49895caaf65a2c20802efee10c2b77bc1399f8eed"
     end
   end
 
